@@ -1,0 +1,9 @@
+Alice,85
+Bob,90
+Charlie,abc
+David,78
+Eve,95
+Frank,150
+Grace,-10
+Helen,foo
+Ian,60

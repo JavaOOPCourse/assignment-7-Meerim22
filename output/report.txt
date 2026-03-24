@@ -1,0 +1,9 @@
+Average: 81.6
+Highest: Eve - 95
+
+--- Full Sorted List ---
+Eve, 95
+Bob, 90
+Alice, 85
+David, 78
+Ian, 60
