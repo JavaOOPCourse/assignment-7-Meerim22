@@ -46,9 +46,12 @@ public class StudentRecordProcessor {
                     // Task 1: Print all valid lines
                     System.out.println("Valid record read: " + name + ", " + score);
 
-                } catch (NumberFormatException | InvalidScoreException e) {
-                    // Task 2: Skip the line and print error for invalid GPA/score
+                } catch (NumberFormatException e) {
+                    // Task 2: Skip the line and print error for invalid format
                     System.out.println("Invalid data: " + line);
+                } catch (InvalidScoreException e) {
+                    // Task 6: Provide informative message for invalid scores
+                    System.out.println("Invalid score: " + e.getMessage() + " in line: " + line);
                 }
             }
         } catch (FileNotFoundException e) {
